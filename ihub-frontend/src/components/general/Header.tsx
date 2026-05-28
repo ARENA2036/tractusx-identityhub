@@ -351,8 +351,8 @@ export default function Header() {
                     <Box sx={{ display: { xs: 'flex', md: 'none' }, alignItems: 'center', justifyContent: 'flex-start' }}>
                         <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
                             <img
-                                src="/tractus-x-logo.png"
-                                alt="Eclipse Tractus-X logo"
+                                src="/logo-orange.png.png"
+                                alt="ARENA2036 logo"
                                 className='small-logo'
                                 style={{ display: 'block' }}
                             />
@@ -361,8 +361,8 @@ export default function Header() {
                     <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', justifyContent: 'flex-start' }}>
                         <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
                             <img
-                                src="/tractus-x-logo-light-version.png"
-                                alt="Eclipse Tractus-X logo"
+                                src="/arena-logo.png"
+                                alt="ARENA2036 logo"
                                 className='main-logo'
                                 style={{ display: 'block' }}
                             />
