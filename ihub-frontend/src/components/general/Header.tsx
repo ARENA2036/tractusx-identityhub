@@ -364,7 +364,7 @@ export default function Header() {
                                 src="/arena-logo.png"
                                 alt="ARENA2036 logo"
                                 className='main-logo'
-                                style={{ display: 'block' }}
+                                style={{ display: 'block', height: '30px' }}
                             />
                         </a>
                     </Box>

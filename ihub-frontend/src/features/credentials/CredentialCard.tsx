@@ -103,12 +103,12 @@ const CredentialCard: React.FC<CredentialCardProps> = ({
                     },
 
                     background:
-                        'linear-gradient(180deg, rgba(9,14,24,0.98) 0%, rgba(4,8,20,0.98) 100%)',
+                        'linear-gradient(180deg, rgba(245,246,250,0.98) 0%, rgba(240,242,248,0.98) 100%)',
 
-                    border: '1px solid rgba(0, 212, 255, 0.15)',
+                    border: '1px solid rgba(15, 113, 203, 0.25)',
 
                     boxShadow:
-                        '0 20px 60px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.03)',
+                        '0 20px 60px rgba(0,0,0,0.08), inset 0 1px 0 rgba(0,0,0,0.03)',
 
                     transition: 'all 0.3s ease',
 
@@ -118,9 +118,9 @@ const CredentialCard: React.FC<CredentialCardProps> = ({
                             sm: 'translateY(-4px)',
                             md: 'translateY(-6px)',
                         },
-                        borderColor: 'rgba(0, 212, 255, 0.35)',
+                        borderColor: 'rgba(15, 113, 203, 0.5)',
                         boxShadow:
-                            '0 30px 80px rgba(0,0,0,0.55), 0 0 20px rgba(0,212,255,0.08)',
+                            '0 30px 80px rgba(0,0,0,0.12), 0 0 20px rgba(15,113,203,0.12)',
                     },
                 }}
                 onClick={() => onViewDetail(credential.id)}
