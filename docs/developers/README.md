@@ -12,6 +12,16 @@ This documentation is designed for developers who need to:
 - Contribute to the core codebase
 - Design systems that interact with these components
 
+## Concepts
+
+### [Concepts and Upstream Relationship](./concepts.md)
+
+Start here if you are new to the project. Explains DIDs, Verifiable Credentials and
+Presentations, the Decentralized Claims Protocol (DCP), the Issuer / Holder / Verifier roles,
+the issuance and presentation flows, the API surface and its internal-versus-public split —
+and exactly how this distribution differs from upstream
+[eclipse-edc/IdentityHub](https://github.com/eclipse-edc/IdentityHub).
+
 ## Components
 
 ### [Identity Hub](./components/IdentityHub.md)

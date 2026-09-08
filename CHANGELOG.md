@@ -10,6 +10,7 @@ For changes in other Tractus-X components, see the [Eclipse Tractus-X Changelog]
 ## [Unreleased]
 
 ### Added
+- Developer orientation guide `docs/developers/concepts.md`: DIDs, Verifiable Credentials and Presentations, DCP roles and flows, the API surface and its internal/public split, and a concrete comparison against upstream `eclipse-edc/IdentityHub`; linked from the docs and developer indexes
 - Self-contained E2E Postman collection `docs/api/postman/Tractus-X_IdentityHub_Local_E2E.json` covering the full DCP flow (issuance → presentation → revocation) against the Docker Compose stack; runs unattended via newman ([#321](https://github.com/eclipse-tractusx/tractusx-identityhub/issues/321), [#197](https://github.com/eclipse-tractusx/tractusx-identityhub/issues/197))
 - `waitForDependencies` initContainer in the persistence charts: blocks runtime startup until the bundled PostgreSQL/Vault accept connections, eliminating the first-install CrashLoopBackOff. Bounded via `waitForDependencies.retries` (default 60, ≈5 min, each probe with a 3s connect timeout) so a genuinely unreachable dependency fails loudly instead of hanging in `Init` ([#237](https://github.com/eclipse-tractusx/tractusx-identityhub/issues/237))
 - Ingress `pathType` configurable per endpoint in all four charts

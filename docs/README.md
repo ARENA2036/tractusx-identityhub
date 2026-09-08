@@ -7,6 +7,7 @@ This directory contains the complete documentation for the Identity Hub and Issu
 - [Required Knowledge](#required-knowledge)
 - [Best Practices](#best-practices)
 - [Documentation Resources](#documentation-resources)
+	- [Concepts and Upstream Relationship](#concepts-and-upstream-relationship)
 	- [Developer Documentation](#developer-documentation)
 	- [Architecture Documentation](#architecture-documentation)
 	- [API Documentation](#api-documentation)
@@ -35,6 +36,13 @@ To effectively work with this project, familiarity with the following technologi
 > When testing, it is recommended to enable ingress to avoid working with port-forwarding. Refer to the respective chart documentation for ingress configuration options, including hostname, TLS settings, and annotations.
 
 ## Documentation Resources
+
+### [Concepts and Upstream Relationship](./developers/concepts.md)
+
+Orientation guide for developers new to the project: DIDs, Verifiable Credentials and
+Presentations, the Decentralized Claims Protocol, the Issuer / Holder / Verifier roles, the
+issuance and presentation flows, the API surface — and what this distribution adds on top of
+upstream [eclipse-edc/IdentityHub](https://github.com/eclipse-edc/IdentityHub).
 
 ### [Developer Documentation](./developers/README.md)
 
